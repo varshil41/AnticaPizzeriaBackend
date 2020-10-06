@@ -31,7 +31,7 @@ var storage = multer.diskStorage({
             if(err){
                 res.json(err);
             }
-            else{
+            else{   
                 res.json(rows);
             }
         });
